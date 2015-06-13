@@ -1,0 +1,629 @@
+# depslib dependency file v1.0
+1374241685 source:c:\users\stan\desktop\opengl_dev\oglobj1\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<math.h>
+	"sdlglutils.h"
+	"cam_trackball.h"
+	"meshobj.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114588 c:\sdl-1.2.15\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_platform.h
+
+1326114594 c:\sdl-1.2.15\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\sdl-1.2.15\include\sdl\begin_code.h
+
+1325742240 c:\sdl-1.2.15\include\sdl\close_code.h
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_keysym.h
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742240 c:\sdl-1.2.15\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1374172641 source:c:\users\stan\desktop\opengl_dev\oglobj1\cam_trackball.cpp
+	"cam_trackball.h"
+	<GL/glu.h>
+	<cmath>
+	"sdlglutils.h"
+
+1374172432 c:\users\stan\desktop\opengl_dev\oglobj1\cam_trackball.h
+	<SDL/SDL.h>
+
+1147261784 c:\users\stan\desktop\opengl_dev\oglobj1\sdlglutils.h
+	<GL/gl.h>
+	<SDL/SDL.h>
+
+1374172576 source:c:\users\stan\desktop\opengl_dev\oglobj1\floatvector.cpp
+	"floatvector.h"
+
+1374172417 c:\users\stan\desktop\opengl_dev\oglobj1\floatvector.h
+
+1374177742 c:\users\stan\desktop\opengl_dev\oglobj1\meshobj.h
+	"material.h"
+	"vertexbuffer.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<map>
+
+1374172468 c:\users\stan\desktop\opengl_dev\oglobj1\material.h
+	<string>
+	"floatvector.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374172445 c:\users\stan\desktop\opengl_dev\oglobj1\vertexbuffer.h
+	"material.h"
+
+1374172546 source:c:\users\stan\desktop\opengl_dev\oglobj1\material.cpp
+	"material.h"
+	"floatvector.h"
+	<string>
+
+1374177278 source:c:\users\stan\desktop\opengl_dev\oglobj1\meshobj.cpp
+	"meshobj.h"
+	"material.h"
+	"vertexbuffer.h"
+	<stdlib.h>
+	<iostream>
+	"sdlglutils.h"
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+
+1374172569 source:c:\users\stan\desktop\opengl_dev\oglobj1\vertexbuffer.cpp
+	"vertexbuffer.h"
+
+1372070222 source:c:\users\stan\desktop\opengl_dev\oglobj1\sdlglutils.cpp
+	"sdlglutils.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/glu.h>
+	<cstring>
+	<cstdlib>
+
+1325788834 c:\sdl-1.2.15\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1374172641 source:c:\users\stan\desktop\opengl_dev\oglobj2\cam_trackball.cpp
+	"cam_trackball.h"
+	<GL/glu.h>
+	<cmath>
+	"sdlglutils.h"
+
+1374172432 c:\users\stan\desktop\opengl_dev\oglobj2\cam_trackball.h
+	<SDL/SDL.h>
+
+1147261784 c:\users\stan\desktop\opengl_dev\oglobj2\sdlglutils.h
+	<GL/gl.h>
+	<SDL/SDL.h>
+
+1374172576 source:c:\users\stan\desktop\opengl_dev\oglobj2\floatvector.cpp
+	"floatvector.h"
+
+1374172417 c:\users\stan\desktop\opengl_dev\oglobj2\floatvector.h
+
+1374172546 source:c:\users\stan\desktop\opengl_dev\oglobj2\material.cpp
+	"material.h"
+	"floatvector.h"
+	<string>
+
+1374172468 c:\users\stan\desktop\opengl_dev\oglobj2\material.h
+	<string>
+	"floatvector.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1372070222 source:c:\users\stan\desktop\opengl_dev\oglobj2\sdlglutils.cpp
+	"sdlglutils.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/glu.h>
+	<cstring>
+	<cstdlib>
+
+1374172569 source:c:\users\stan\desktop\opengl_dev\oglobj2\vertexbuffer.cpp
+	"vertexbuffer.h"
+
+1374172445 c:\users\stan\desktop\opengl_dev\oglobj2\vertexbuffer.h
+	"material.h"
+
+1374339928 source:c:\users\stan\desktop\opengl_dev\oglobj2\meshobj.cpp
+	"meshobj.h"
+	"material.h"
+	"vertexbuffer.h"
+	<stdlib.h>
+	<iostream>
+	"sdlglutils.h"
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+
+1374177742 c:\users\stan\desktop\opengl_dev\oglobj2\meshobj.h
+	"material.h"
+	"vertexbuffer.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<map>
+
+1374365474 source:c:\users\stan\desktop\opengl_dev\oglobj2\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<SDL/SDL_ttf.h>
+	<map>
+	<iterator>
+	<math.h>
+	"sdlglutils.h"
+	"cam_trackball.h"
+	"meshobj.h"
+
+1325793194 c:\sdl-1.2.15\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1374172641 source:c:\users\stan\desktop\opengl_dev\oglobj3\cam_trackball.cpp
+	"cam_trackball.h"
+	<GL/glu.h>
+	<cmath>
+	"sdlglutils.h"
+
+1374172432 c:\users\stan\desktop\opengl_dev\oglobj3\cam_trackball.h
+	<SDL/SDL.h>
+
+1147261784 c:\users\stan\desktop\opengl_dev\oglobj3\sdlglutils.h
+	<GL/gl.h>
+	<SDL/SDL.h>
+
+1374172576 source:c:\users\stan\desktop\opengl_dev\oglobj3\floatvector.cpp
+	"floatvector.h"
+
+1374172417 c:\users\stan\desktop\opengl_dev\oglobj3\floatvector.h
+
+1374172546 source:c:\users\stan\desktop\opengl_dev\oglobj3\material.cpp
+	"material.h"
+	"floatvector.h"
+	<string>
+
+1374172468 c:\users\stan\desktop\opengl_dev\oglobj3\material.h
+	<string>
+	"floatvector.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374339928 source:c:\users\stan\desktop\opengl_dev\oglobj3\meshobj.cpp
+	"meshobj.h"
+	"material.h"
+	"vertexbuffer.h"
+	<stdlib.h>
+	<iostream>
+	"sdlglutils.h"
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+
+1374177742 c:\users\stan\desktop\opengl_dev\oglobj3\meshobj.h
+	"material.h"
+	"vertexbuffer.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<map>
+
+1374172445 c:\users\stan\desktop\opengl_dev\oglobj3\vertexbuffer.h
+	"material.h"
+
+1372070222 source:c:\users\stan\desktop\opengl_dev\oglobj3\sdlglutils.cpp
+	"sdlglutils.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/glu.h>
+	<cstring>
+	<cstdlib>
+
+1374172569 source:c:\users\stan\desktop\opengl_dev\oglobj3\vertexbuffer.cpp
+	"vertexbuffer.h"
+
+1374431153 source:c:\users\stan\desktop\opengl_dev\oglobj3\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<stdio.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<map>
+	<iterator>
+	<math.h>
+	"sdlglutils.h"
+	"cam_trackball.h"
+	<fstream>
+	"meshobj.h"
+
+1374172641 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\cam_trackball.cpp
+	"cam_trackball.h"
+	<GL/glu.h>
+	<cmath>
+	"sdlglutils.h"
+
+1374172432 c:\users\stan\desktop\opengl_dev\oglobj4 camera\cam_trackball.h
+	<SDL/SDL.h>
+
+1147261784 c:\users\stan\desktop\opengl_dev\oglobj4 camera\sdlglutils.h
+	<GL/gl.h>
+	<SDL/SDL.h>
+
+1374172576 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\floatvector.cpp
+	"floatvector.h"
+
+1374172417 c:\users\stan\desktop\opengl_dev\oglobj4 camera\floatvector.h
+
+1374172546 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\material.cpp
+	"material.h"
+	"floatvector.h"
+	<string>
+
+1374172468 c:\users\stan\desktop\opengl_dev\oglobj4 camera\material.h
+	<string>
+	"floatvector.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374550700 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\meshobj.cpp
+	"meshobj.h"
+	"material.h"
+	"vertexbuffer.h"
+	<stdlib.h>
+	<iostream>
+	"sdlglutils.h"
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+
+1374474116 c:\users\stan\desktop\opengl_dev\oglobj4 camera\meshobj.h
+	"material.h"
+	"vertexbuffer.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<map>
+
+1374172445 c:\users\stan\desktop\opengl_dev\oglobj4 camera\vertexbuffer.h
+	"material.h"
+
+1372070222 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\sdlglutils.cpp
+	"sdlglutils.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/glu.h>
+	<cstring>
+	<cstdlib>
+
+1374172569 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\vertexbuffer.cpp
+	"vertexbuffer.h"
+
+1374820193 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\main.cpp
+	<cstdlib>
+	<stdlib.h>
+	<SDL/SDL.h>
+	<SDL/SDL_Image.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdio.h>
+	<math.h>
+	<iterator>
+	<fstream>
+	<map>
+	<sstream>
+	"sdlglutils.h"
+	"cam_trackball.h"
+	"systeme.h"
+	"personnage.h"
+	"meshobj.h"
+	"camera.h"
+
+1374465697 c:\users\stan\desktop\opengl_dev\oglobj4 camera\systeme.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374794116 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\systeme.cpp
+	"systeme.h"
+
+1374825324 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\camera.cpp
+	<GL/glu.h>
+	<cmath>
+	"camera.h"
+
+1374820166 c:\users\stan\desktop\opengl_dev\oglobj4 camera\camera.h
+
+1374825324 source:c:\users\stan\desktop\opengl_dev\oglobj4 camera\personnage.cpp
+	"personnage.h"
+	"meshobj.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374636254 c:\users\stan\desktop\opengl_dev\oglobj4 camera\personnage.h
+	<string>
+	"meshobj.h"
+
+1374169041 source:d:\divers\opengl_dev\oglobj4 camera\cam_trackball.cpp
+	"cam_trackball.h"
+	<GL/glu.h>
+	<cmath>
+	"sdlglutils.h"
+
+1374168832 d:\divers\opengl_dev\oglobj4 camera\cam_trackball.h
+	<SDL/SDL.h>
+
+1147258184 d:\divers\opengl_dev\oglobj4 camera\sdlglutils.h
+	<GL/gl.h>
+	<SDL/SDL.h>
+
+1374821724 source:d:\divers\opengl_dev\oglobj4 camera\camera.cpp
+	<GL/glu.h>
+	<cmath>
+	"camera.h"
+
+1374816566 d:\divers\opengl_dev\oglobj4 camera\camera.h
+
+1374168976 source:d:\divers\opengl_dev\oglobj4 camera\floatvector.cpp
+	"floatvector.h"
+
+1374168817 d:\divers\opengl_dev\oglobj4 camera\floatvector.h
+
+1374168946 source:d:\divers\opengl_dev\oglobj4 camera\material.cpp
+	"material.h"
+	"floatvector.h"
+	<string>
+
+1374168868 d:\divers\opengl_dev\oglobj4 camera\material.h
+	<string>
+	"floatvector.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374547100 source:d:\divers\opengl_dev\oglobj4 camera\meshobj.cpp
+	"meshobj.h"
+	"material.h"
+	"vertexbuffer.h"
+	<stdlib.h>
+	<iostream>
+	"sdlglutils.h"
+	<fstream>
+	<vector>
+	<map>
+	<iterator>
+
+1374470516 d:\divers\opengl_dev\oglobj4 camera\meshobj.h
+	"material.h"
+	"vertexbuffer.h"
+	<GL/gl.h>
+	<GL/glu.h>
+	<vector>
+	<map>
+
+1374168845 d:\divers\opengl_dev\oglobj4 camera\vertexbuffer.h
+	"material.h"
+
+1374821724 source:d:\divers\opengl_dev\oglobj4 camera\personnage.cpp
+	"personnage.h"
+	"meshobj.h"
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374632654 d:\divers\opengl_dev\oglobj4 camera\personnage.h
+	<string>
+	"meshobj.h"
+
+1372066622 source:d:\divers\opengl_dev\oglobj4 camera\sdlglutils.cpp
+	"sdlglutils.h"
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/glu.h>
+	<cstring>
+	<cstdlib>
+
+1374790516 source:d:\divers\opengl_dev\oglobj4 camera\systeme.cpp
+	"systeme.h"
+
+1374462097 d:\divers\opengl_dev\oglobj4 camera\systeme.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1374168969 source:d:\divers\opengl_dev\oglobj4 camera\vertexbuffer.cpp
+	"vertexbuffer.h"
+
